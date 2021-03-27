@@ -1,5 +1,3 @@
-
-
 # Express를 이용한RESTful API
 
 간단하게 서버를 열고 json형식으로 만들어진 data에 
@@ -132,7 +130,7 @@ JSON은 웹 서버와 데이터를 교환하는데 주로 사용된다.
 
 (일반적으로 JavaScript를 활용한 웹 어플리케이션에서는 상태나 기타 데이터들을 저장하고 활용하기 위해서 흔히 객체(Object)를 사용한다)
 
-![화면 캡처 2021-03-28 001712](C:\Users\김지훈\Desktop\화면 캡처 2021-03-28 001712.png)
+![화면 캡처 2021-03-28 001712](https://user-images.githubusercontent.com/77804950/112725906-e6b0a980-8f5d-11eb-86eb-9fdaf69cdabc.png)
 
 #### 새로운 유저 추가 (POST)
 
@@ -166,13 +164,12 @@ router.post('/addUser/:username',function (req,res){
 })
 ```
 
-![화면 캡처 2021-03-28 002533](C:\Users\김지훈\Desktop\zzz\화면 캡처 2021-03-28 002533.png)
+![화면 캡처 2021-03-28 002500](https://user-images.githubusercontent.com/77804950/112725902-de586e80-8f5d-11eb-8a87-120d00738555.png)
 
 위처럼 BODY내용에 데이터를 빼먹으면 에러를 발생시킨다.
 
 
-
-![화면 캡처 2021-03-28 002500](C:\Users\김지훈\Desktop\zzz\화면 캡처 2021-03-28 002500.png)
+![화면 캡처 2021-03-28 002533](https://user-images.githubusercontent.com/77804950/112725904-e0223200-8f5d-11eb-8f2d-b99d0af76172.png)
 
 BODY를 잘 넣고 문제가 없으면 위 사진처럼 서버가 res를 보내준다. 
 
